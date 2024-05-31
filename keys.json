@@ -1,0 +1,24 @@
+{
+    "if": {
+        "start": "if",
+        "middle": ["elif", "else"],
+        "end": "fi"
+    },
+    "for": {
+        "start": ["for", "in", "do"],
+        "end": "done"
+    },
+    "case": {
+        "start": ["case", "in"],
+        "essential": ";;",
+        "end": "esac"
+    },
+    "while": {
+        "start": "while",
+        "end": "done"
+    },
+    "function": {
+        "start": ["function", "()", "{"],
+        "end": "}"
+    }
+}

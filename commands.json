@@ -1,0 +1,60 @@
+{
+    "base-commands": {
+        "mkdir": {
+            "correct": "mkdir",
+            "flags": ["-p", "-v"],
+            "best_praktice": "mkdir -p",
+            "uncorrect": [
+                "mkdil",
+                "mdkir",
+                "mdir",
+                "mkir",
+                "makedir",
+                "mkdr"
+            ]
+        },
+        "cp": {
+            "correct": "cp",
+            "flags": [
+                "-r",
+                "-f"
+            ],
+            "best_praktice": "cp -rf",
+            "uncorrect": [
+                "copy",
+                "cpoy"
+            ]
+        },
+        "rm": {
+            "correct": "rm",
+            "flags": [
+                "-r",
+                "-f"
+            ],
+            "best_praktice": "rm -rf",
+            "uncorrect": [
+                "rem",
+                "remove"
+            ]
+        },
+        "mv": {
+            "correct": "mv",
+            "flags": ["none"],
+            "best_praktice": "mv",
+            "uncorrect": [
+                "move",
+                "mve"
+            ]
+        },
+        "echo": {
+            "correct": "echo",
+            "flags": ["-e"],
+            "best_praktice": "echo -e",
+            "uncorrect": [
+                "print",
+                "ehco",
+                "ecoh"
+            ]
+        }
+    }
+}
